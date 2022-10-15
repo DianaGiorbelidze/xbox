@@ -1,0 +1,210 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+a {
+    font-family: inherit;
+}
+
+.header {
+    background: rgb(41, 31, 31);
+    border-radius: 4px 4px 0 0;
+    border-bottom: 3px solid #777;
+}
+
+.header-logo {}
+
+.konten-head {
+    max-width: 1105px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header-image {}
+
+.menu {}
+
+.menu-body {}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.meny-item {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.menu-ling {
+    font-size: 16px;
+    line-height: 16px;
+    color: antiquewhite;
+    transition: all 0.5s;
+    text-decoration: none;
+
+}
+
+.menu-ling:hover {
+    color: white;
+    text-shadow: 0 0 5px yellow;
+}
+
+.mail {}
+
+.promo {
+    background: url(../img/1.jpg)no-repeat center/ cover;
+    height: calc(100vh - 63px);
+
+}
+
+.konten {
+    max-width: 1105px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.promo_content {}
+
+.promo_ti {
+    font-size: 36px;
+    line-height: 42px;
+
+
+
+    color: #FFFFFF;
+    margin-bottom: 135px;
+}
+
+.promo_ti span {
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+
+}
+
+.bottom {
+    padding: 8px 19px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 1.0s ease 0s;
+
+}
+
+
+.bottom:hover {
+    background: #8DD83D;
+}
+
+.best {
+    padding: 34px 0 165px 0;
+    background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+
+}
+
+.best-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.best-title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 0 5px rgb(4, 250, 238);
+
+}
+
+.best-title span {
+    display: block;
+}
+
+.content {
+    max-width: 1105px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.best-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-car-img {
+    height: 180px;
+    background: url(../img/6.jpg) no-repeat center / cover;
+    background: url(../img/xbox-one-x.jpg) no-repeat center / cover;
+
+
+}
+
+.dest-can {
+    flex: 0 0 320px;
+    background: #FFFFFF;
+}
+
+.best-car-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766;
+    margin-bottom: 13px;
+    padding: 0 20px;
+}
+
+.best-car-im {
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+    margin-bottom: 38px;
+    padding: 0 20px;
+}
+
+.best-bottom {
+    display: block;
+    width: 90%;
+    padding: 8px 19px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.best-bottom:hover {
+    background: #8DD83D;
+}
